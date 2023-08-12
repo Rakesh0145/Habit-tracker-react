@@ -1,0 +1,63 @@
+.habbit {
+    background: #E7D9F9;
+    width: 65%;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 20px; */
+    margin:2% auto 0 auto ;
+    position: relative;
+  }
+
+  .iconDiv {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .iconDiv i {
+    font-size: 1.5em;
+    color: rgb(152, 120, 177);
+  }
+
+  .deleteBtn {
+    position: absolute;
+    top: 25%;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .deleteBtn > i{
+    color: #5c0bc5;
+  }
+  
+  .deleteBtn:hover {
+    animation: vibrate 0.5s linear infinite;
+  }
+  @keyframes vibrate {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-2px) rotate(1deg);
+    }
+    50% {
+      transform: translateX(2px) rotate(-1deg);
+    }
+    75% {
+      transform: translateX(-2px) rotate(1deg);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
